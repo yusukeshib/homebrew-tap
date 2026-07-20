@@ -27,7 +27,7 @@ class Box < Formula
   end
 
   def install
-    bin.install "box"
+    bin.install Dir["box-*-#{OS.mac? ? "darwin" : "linux"}"].first => "box"
   end
 
   test do

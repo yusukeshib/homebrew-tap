@@ -27,7 +27,7 @@ class Looop < Formula
   end
 
   def install
-    bin.install "looop"
+    bin.install Dir["looop-*-#{OS.mac? ? "darwin" : "linux"}"].first => "looop"
   end
 
   test do

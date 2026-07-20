@@ -27,7 +27,7 @@ class Babysit < Formula
   end
 
   def install
-    bin.install "babysit"
+    bin.install Dir["babysit-*-#{OS.mac? ? "darwin" : "linux"}"].first => "babysit"
   end
 
   test do
