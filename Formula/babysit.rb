@@ -7,22 +7,22 @@ class Babysit < Formula
   on_macos do
     on_arm do
       url "https://github.com/yusukeshib/babysit/releases/download/v#{version}/babysit-aarch64-darwin"
-      sha256 "0931d898ff2881101a13f602c52ff477806dedf20375d31e606ce9a1d85f7ce1"
+      sha256 "a81dbcdbb4a27b0fb4ef0829c5a63166e7c141dc13c63839b50bf409cdf82fae"
     end
     on_intel do
       url "https://github.com/yusukeshib/babysit/releases/download/v#{version}/babysit-x86_64-darwin"
-      sha256 "c185931507a2cd6f8235ac04e21f15da479abbf411c1b3279f091e7b9eadc133"
+      sha256 "70d4eef34e8889120b30ce96a7878cccb2bbe34da20b6be67a3eed27d5a57b50"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/yusukeshib/babysit/releases/download/v#{version}/babysit-aarch64-linux"
-      sha256 "c31f0dfd92047b223d9770712ddd41932ef76765ee8e8e22f335a62337d0e569"
+      sha256 "3931baf4e952aaf6a5ab3d12b6c50cad91b4abf851fd737c1d3cbc940c4bfe29"
     end
     on_intel do
       url "https://github.com/yusukeshib/babysit/releases/download/v#{version}/babysit-x86_64-linux"
-      sha256 "efb93e47c0fb3eaab09fe669e36ad14e0b42b75f6b3f6a49823aedcb1f7035d4"
+      sha256 "0931d898ff2881101a13f602c52ff477806dedf20375d31e606ce9a1d85f7ce1"
     end
   end
 
