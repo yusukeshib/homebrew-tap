@@ -1,13 +1,13 @@
 class Babysit < Formula
   desc "Wrap shell commands in a PTY for external AI agents"
   homepage "https://github.com/yusukeshib/babysit"
-  version "0.12.0"
+  version "0.13.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/yusukeshib/babysit/releases/download/v#{version}/babysit-aarch64-darwin"
-      sha256 "59b7bf4bbb0a080aedb8df075d8dad423e8c6de8f118876c6e014d3b512212de"
+      sha256 "0931d898ff2881101a13f602c52ff477806dedf20375d31e606ce9a1d85f7ce1"
     end
     on_intel do
       url "https://github.com/yusukeshib/babysit/releases/download/v#{version}/babysit-x86_64-darwin"
