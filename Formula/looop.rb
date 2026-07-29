@@ -1,28 +1,28 @@
 class Looop < Formula
   desc "Portable, Kubernetes-shaped control loop for work"
   homepage "https://github.com/yusukeshib/looop"
-  version "1.0.2"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/yusukeshib/looop/releases/download/v#{version}/looop-aarch64-darwin"
-      sha256 "1dd36b94f7191456471e1ddeef38a69a0c0d4e587b92848a0e81a85b35555683"
+      sha256 "1cab4a7ce5c6b7a054d7c05470a963d599d3296a00cf4b7fcbcf47e11e0f790b"
     end
     on_intel do
       url "https://github.com/yusukeshib/looop/releases/download/v#{version}/looop-x86_64-darwin"
-      sha256 "09accf17813a26e97c42ad6202b4a1af2f9be71442a4716af52e44c9eb713627"
+      sha256 "097f8332797df29ceed3f756c49b1a1b8d02c55c0e8b982fc35142c97c6abfd5"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/yusukeshib/looop/releases/download/v#{version}/looop-aarch64-linux"
-      sha256 "f96f8e349a3e792d9ac422d59ecb5e773976b563e958d742bd8e265c3db731b5"
+      sha256 "735f9a36d5ab93ef33a276a811bb5d0da527c181aa27e88e4d1c2ec6c88ba7a1"
     end
     on_intel do
       url "https://github.com/yusukeshib/looop/releases/download/v#{version}/looop-x86_64-linux"
-      sha256 "ec921f7103722f52e44a52612584e2784dfe801849ad3a9ee432e5ac8a792a7d"
+      sha256 "156221740880c0846715dfdfcbcd006e47f5c90309bd314ca1f70d4877107632"
     end
   end
 
