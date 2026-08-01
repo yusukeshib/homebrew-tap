@@ -1,28 +1,28 @@
 class Box < Formula
   desc "Sandboxed git workspaces for development"
   homepage "https://github.com/yusukeshib/box"
-  version "0.3.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/yusukeshib/box/releases/download/v#{version}/box-aarch64-darwin"
-      sha256 "50332c37e817ae93c315b1e18c6f968aecab25a9279597c1dd6d508f127b13ef"
+      sha256 "4a7dfa51d28a1bb47a17fa8da103cc35989ef7b1226d8adbfb07d5e27e5ab4a9"
     end
     on_intel do
       url "https://github.com/yusukeshib/box/releases/download/v#{version}/box-x86_64-darwin"
-      sha256 "ded9817b7d480da666d2b98b47d49a8e554aca9b0b65ea0b98000637fef6695f"
+      sha256 "e8d696634190f2d73ed14cbb83721fbb4592c1e92380ad27fa41c3a573b16260"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/yusukeshib/box/releases/download/v#{version}/box-aarch64-linux"
-      sha256 "8f813023c1e864625383c83f0c6c156fccba9a9415966315d7a61b8171e4201c"
+      sha256 "1770eec973d31704b6e6b93e9570acb2b4dcf9b45f169f168f4d98725cbb5b7d"
     end
     on_intel do
       url "https://github.com/yusukeshib/box/releases/download/v#{version}/box-x86_64-linux"
-      sha256 "6d9093405d286c130095362e1334431ecb7a93590a114260ac9d5a7f56081d0d"
+      sha256 "7e925bbbf35cee923869912604ae029fd6c88fa7bcb1f20d7f85918c4b023873"
     end
   end
 
