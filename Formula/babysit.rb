@@ -1,28 +1,28 @@
 class Babysit < Formula
   desc "Wrap shell commands in a PTY for external AI agents"
   homepage "https://github.com/yusukeshib/babysit"
-  version "0.14.6"
+  version "0.14.7"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/yusukeshib/babysit/releases/download/v#{version}/babysit-aarch64-darwin"
-      sha256 "1b293424dda836b810b29943a47765ee41a940540080ebadebd8d7492e9c9f08"
+      sha256 "652ac02439ac06ee4958e825fe08a766f62166f4fe3be41b3ac849d4838e4c2e"
     end
     on_intel do
       url "https://github.com/yusukeshib/babysit/releases/download/v#{version}/babysit-x86_64-darwin"
-      sha256 "e5f514b53a74b7995e080547af1268442bcaed801f42544a5fd32ed9d3313483"
+      sha256 "2aba0731d4a63799b2386ac4686546047d67720c9a86f0f27a340fd9912056eb"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/yusukeshib/babysit/releases/download/v#{version}/babysit-aarch64-linux"
-      sha256 "8786c0cdb0fe930cd8925650e618bcdcd15c7e211613843e9c20ff8665c03db5"
+      sha256 "8a550078d924255ffbe57ffd0444eb7c1e9d4cf60b0c1c6f5b44d8771f387547"
     end
     on_intel do
       url "https://github.com/yusukeshib/babysit/releases/download/v#{version}/babysit-x86_64-linux"
-      sha256 "19bd1d12a864726ffc7c19a9a91e5cf52cb4da58948120e09e382b7946459783"
+      sha256 "558f72da250ac50a1ba4cb3d3060e6fa35dde0a0a8269177443ade237ef2cad4"
     end
   end
 
