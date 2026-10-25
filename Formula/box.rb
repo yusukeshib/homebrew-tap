@@ -5,23 +5,23 @@ class Box < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/yusukeshib/box/releases/download/v0.9.0/box-aarch64-darwin"
-      sha256 "157ea7daccf06dd2ad4b81bb0c1f9cb0d2722bfd95a579815cb39f32746257a8"
+      url "https://github.com/yusukeshib/box/releases/download/v0.10.0/box-aarch64-darwin"
+      sha256 "eb19958e9a490636867baa3da6be79177905d43f602cc93e919a7f89ad4dae96"
     end
     on_intel do
-      url "https://github.com/yusukeshib/box/releases/download/v0.9.0/box-x86_64-darwin"
-      sha256 "448cdf947594b00b423211e03d5de943ee7852892ad84e091dcb3c2076a3ef18"
+      url "https://github.com/yusukeshib/box/releases/download/v0.10.0/box-x86_64-darwin"
+      sha256 "b08a0c544970874a54c15df5806ee4f4c78661be9bdab563fc2edae8cca27aba"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/yusukeshib/box/releases/download/v0.9.0/box-aarch64-linux"
-      sha256 "8b136d252c099430b45937ce100bd30a6250e1cc0b329deb3a9994e488c3ae22"
+      url "https://github.com/yusukeshib/box/releases/download/v0.10.0/box-aarch64-linux"
+      sha256 "06f720997f2c60418844fecd24a23f7dda04260c7b30b657072d9f999dc3ee43"
     end
     on_intel do
-      url "https://github.com/yusukeshib/box/releases/download/v0.9.0/box-x86_64-linux"
-      sha256 "4008df1126f409ea10284564e84b8d5a2a3840737a398100ca6cc5cf8c77163b"
+      url "https://github.com/yusukeshib/box/releases/download/v0.10.0/box-x86_64-linux"
+      sha256 "34022aad71c1e3c41f0810d651793ae5d42188aea27fa2469832fd31fd49f449"
     end
   end
 
